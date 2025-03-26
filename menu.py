@@ -9,7 +9,7 @@ GREEN = (0, 255, 0)
 ROOT_DIR = os.path.dirname(__file__)
 IMAGE_DIR = os.path.join(ROOT_DIR, 'assets')
 
-
+# Inicio de librerias
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
